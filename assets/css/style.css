@@ -108,6 +108,17 @@ Copyright 2024
   font-style: normal;
 }
 @font-face {
+  font-family: 'Urbanist, sans-serif';
+  src: url('../fonts/Urbanist-SemiBoldItalic.ttf') format('truetype');
+      
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+
+@font-face {
   font-family: "Poppins, sans-serif";
   src: url("../fonts/poppins/Poppins-SemiBold.ttf") format("truetype");
   font-weight: 600;
@@ -2639,7 +2650,7 @@ i.msicon.msi-star.fill {
   font-size: 11px;
   font-weight: 500;
   line-height: 12px;
-  text-align: left;
+  text-align: right !important;
   text-transform: uppercase;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2802,8 +2813,8 @@ i.msicon.msi-star.fill {
   text-decoration: none;
   color: black;
   display: block;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 24px;
   font-weight: 700;
   letter-spacing: 0.85px;
   text-transform: capitalize;
@@ -8827,10 +8838,10 @@ body.ms-menu-open:before {
   width: 52.7%;
 }
 .ms-single-product .single-pro-img-no-sidebar {
-  width: 40%;
+  width: 50%;
 }
 .ms-single-product .single-pro-desc-no-sidebar {
-  width: 60%;
+  width: 50%;
 }
 .ms-single-product .space-6 > div {
   margin-top: 30px;
@@ -8922,13 +8933,13 @@ body.ms-menu-open:before {
 }
 .ms-single-product .single-pro-content .ms-single-title {
   color: #17181c;
-  font-size: 24px;
+  font-size: 30px;
   text-transform: capitalize;
   margin: 0 0 20px 0;
   text-decoration: none;
   display: block;
   font-family: "Poppins, sans-serif";
-  font-weight: 500;
+  font-weight: 600;
   line-height: 35px;
   letter-spacing: 0.02rem;
 }
