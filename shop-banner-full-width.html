@@ -984,21 +984,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Shop Top End -->
 
-                    <!-- Select Bar Start -->
-                    <!-- <div class="ms-select-bar d-flex">
-                        <span class="ms-select-btn">Clothes<a class="ms-select-cancel" href="javascript:void(0)">×</a></span>
-                        <span class="ms-select-btn">Fruits<a class="ms-select-cancel" href="javascript:void(0)">×</a></span>
-                        <span class="ms-select-btn">Snacks<a class="ms-select-cancel" href="javascript:void(0)">×</a></span>
-                        <span class="ms-select-btn">Dairy<a class="ms-select-cancel" href="javascript:void(0)">×</a></span>
-                        <span class="ms-select-btn">perfume<a class="ms-select-cancel" href="javascript:void(0)">×</a></span>
-                        <span class="ms-select-btn">jewelry<a class="ms-select-cancel" href="javascript:void(0)">×</a></span>
-                        <span class="ms-select-btn ms-select-btn-clear"><a class="ms-select-clear" href="javascript:void(0)">Clear All</a></span>
-                    </div> -->
-                    <!-- Select Bar End -->
-
-                    <!-- Shop content Start -->
                     <div class="shop-pro-content">
                         <div class="shop-pro-inner">
                             <div class="row">
@@ -1015,9 +1001,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="#" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image" id="product-main-img"
                                                         src="./assets/1. LUXURY SERIES (50)/1. Armani Luxury High Back Chair [Green]/1.jpg"
                                                         alt="Product">
@@ -1025,8 +1009,10 @@
                                                         src="assets/1. LUXURY SERIES (50)/1. Armani Luxury High Back Chair [Green]/2.jpg"
                                                         alt="Product">
                                                 </a>
-                                                <span class="flags">
-                                                    <span class="sale">Sale</span>
+                                                <span class="flags" style="background-color: black !important;">
+                                                    <span class="sale"
+                                                        style="color: white; background-color: black !important;">Save
+                                                        25% </span>
                                                 </span>
                                                 <div class="ms-pro-actions">
                                                     <a class="ms-btn-group wishlist"><img
@@ -1044,10 +1030,16 @@
                                                             alt=""></a>
                                                 </div>
                                             </div>
+                                            <div class="product-cart-btn" style="padding: 10px 15px 0;">
+                                                <button class="add-to-cart-btn" style="font-size: 12px;">
+                                                    Quick View
+                                                </button>
+                                            </div>
                                         </div>
                                         <div class="ms-pro-content">
-                                            <h5 class="ms-pro-title"><a href="#">Armani Luxury High Back Chair
-                                                    [Green]</a></h5>
+                                            <h5 class="ms-pro-title"><a style="text-transform:uppercase;  ">ARMANI
+                                                    LUXURY HIGH BACK <br> CHAIR
+                                                    [GREEN] Akavi</a></h5>
                                             <p class="ms-info">Contrary to popular belief, Lorem Ipsum is not simply
                                                 random text.</p>
                                             <div class="ms-pro-rat-price">
@@ -1055,7 +1047,7 @@
                                                     <i class="msicon msi-star fill"></i>
                                                     <i class="msicon msi-star fill"></i>
                                                     <i class="msicon msi-star fill"></i>
-                                                    <i class="msicon msi-star"></i>
+                                                    <i class="msicon msi-star fill"></i>
                                                     <i class="msicon msi-star"></i>
                                                 </span>
                                                 <span class="ms-price">
@@ -1129,27 +1121,6 @@
                                         }
                                     </style>
 
-                                    <script>
-                                        const swatches = document.querySelectorAll('.swatch');
-                                        const mainImage = document.getElementById('product-main-img');
-
-                                        swatches.forEach((swatch) => {
-                                            swatch.addEventListener('click', () => {
-                                                const newImg = swatch.getAttribute('data-img');
-                                                if (newImg && mainImage) {
-                                                    mainImage.src = newImg;
-                                                }
-                                            });
-                                        });
-                                    </script>
-
-
-
-
-
-
-
-
 
 
 
@@ -1161,9 +1132,6 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/2. Armani Luxury Medium Back Chair [Green]/1.jpg"
                                                         alt="Product">
@@ -1171,46 +1139,66 @@
                                                         src="assets/1. LUXURY SERIES (50)/2. Armani Luxury Medium Back Chair [Green]/2.png"
                                                         alt="Product">
                                                 </a>
+                                                  <!-- <span class="flags" style="background-color: black !important;">
+                                                    <span class="sale"
+                                                        style="color: white; background-color: black !important;">Save
+                                                        25% </span>
+                                                </span> -->
                                                 <div class="ms-pro-actions">
-                                                    <a class="ms-btn-group wishlist"><img
-                                                            src="assets/img/icons/pro_wishlist.svg"
-                                                            class="svg_img pro_svg" alt=""></a>
+                                                    <a class="ms-btn-group wishlist">
+                                                        <img src="assets/img/icons/pro_wishlist.svg"
+                                                            class="svg_img pro_svg" alt="">
+                                                    </a>
                                                     <a href="#" class="ms-btn-group quickview" data-link-action=""
-                                                        title="Quick view" data-bs-toggle="modal" data-bs-target=""><img
-                                                            src="assets/img/icons/quickview.svg" class="svg_img pro_svg"
-                                                            alt=""></a>
-                                                    <a href="" class="ms-btn-group compare" title="Compare"><img
-                                                            src="assets/img/icons/compare.svg" class="svg_img pro_svg"
-                                                            alt=""></a>
-                                                    <a href="" title="" class="ms-btn-group add-to-cart"><img
-                                                            src="assets/img/icons/pro_cart.svg" class="svg_img pro_svg"
-                                                            alt=""></a>
+                                                        title="Quick view" data-bs-toggle="modal" data-bs-target="">
+                                                        <img src="assets/img/icons/quickview.svg"
+                                                            class="svg_img pro_svg" alt="">
+                                                    </a>
+                                                    <!-- <a href="" class="ms-btn-group compare" title="Compare">
+                                                        <img src="assets/img/icons/compare.svg" class="svg_img pro_svg"
+                                                            alt="">
+                                                    </a> -->
+                                                    <!-- <a href="" title="" class="ms-btn-group add-to-cart">
+                                                        <img src="assets/img/icons/pro_cart.svg" class="svg_img pro_svg"
+                                                            alt="">
+                                                    </a> -->
                                                 </div>
                                             </div>
+
+                                            <!-- 🛒 Add to Cart Button directly under image -->
+                                            <div class="product-cart-btn" style="padding: 10px 15px 0;">
+                                                <button class="add-to-cart-btn" style="font-size: 12px;">
+                                                    Quick View
+                                                </button>
+                                            </div>
                                         </div>
+
                                         <div class="ms-pro-content">
                                             <a href="">
-                                                <!-- <h6 class="ms-pro-stitle">Dried Fruits</h6> -->
+                                                <!-- Optional Sub Title -->
                                             </a>
-                                            <h5 class="ms-pro-title"><a href="">Armani Luxury High Back Chair
-                                                    [Green]</a></h5>
-                                            <p class="ms-info">Contrary to popular belief, Lorem Ipsum is not simply
-                                                random text. It has roots in a piece of classical Latin literature from
-                                                45 BC, making it over 2000 years old.</p>
+                                            <h5 class="ms-pro-title"><a href="" style="text-transform:uppercase">Armani
+                                                    Luxury High Back <br> Chair
+                                                    [Green] Akavi</a></h5>
+                                            <p class="ms-info">
+                                                Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                                                has roots in a piece of classical Latin literature from 45 BC, making it
+                                                over 2000 years old.
+                                            </p>
                                             <div class="ms-pro-rat-price">
                                                 <span class="ms-pro-rating">
                                                     <i class="msicon msi-star fill"></i>
                                                     <i class="msicon msi-star fill"></i>
                                                     <i class="msicon msi-star fill"></i>
-                                                    <i class="msicon msi-star"></i>
-                                                    <i class="msicon msi-star"></i>
+                                                    <i class="msicon msi-star fill"></i>
+                                                    <i class="msicon msi-star fill"></i>
                                                 </span>
                                                 <span class="ms-price">
                                                     <span class="new-price">Rs 71,990</span>
                                                     <span class="old-price">Rs 97,990</span>
                                                 </span>
                                             </div>
-                                             <div class="color-swatches ">
+                                            <div class="color-swatches">
                                                 <ul class="swatch-list">
                                                     <li class="swatch" style="background-color: #000;"
                                                         data-img="assets/1. LUXURY SERIES (50)/3. Armani Luxury High Back Chair [Beige]/1.jpg">
@@ -1227,15 +1215,34 @@
                                         </div>
                                     </div>
                                 </div>
+
+                                <!-- 🧑‍🎨 Button Styling -->
+                                <style>
+                                    .add-to-cart-btn {
+                                        width: 100%;
+                                        background-color: #000;
+                                        color: #fff;
+                                        padding: 7px 0;
+                                        border: none;
+                                        border-radius: 4px;
+                                        font-weight: bold;
+                                        cursor: pointer;
+                                        transition: background 0.3s ease;
+                                        text-transform: uppercase;
+                                    }
+
+                                    .add-to-cart-btn:hover {
+                                        background-color: #333;
+                                    }
+                                </style>
+
                                 <div
                                     class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 mb-6 pro-gl-content ms-product-content">
                                     <div class="ms-product-inner">
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/3. Armani Luxury High Back Chair [Beige]/1.jpg"
                                                         alt="Product">
@@ -1243,8 +1250,10 @@
                                                         src="assets/1. LUXURY SERIES (50)/3. Armani Luxury High Back Chair [Beige]/2.jpg"
                                                         alt="Product">
                                                 </a>
-                                                <span class="flags">
-                                                    <span class="sale">Sale</span>
+                                                 <span class="flags" style="background-color: black !important;">
+                                                    <span class="sale"
+                                                        style="color: white; background-color: black !important;">Save
+                                                        25% </span>
                                                 </span>
                                                 <div class="ms-pro-actions">
                                                     <a class="ms-btn-group wishlist"><img
@@ -1262,13 +1271,19 @@
                                                             alt=""></a>
                                                 </div>
                                             </div>
+                                            <div class="product-cart-btn" style="padding: 10px 15px 0;">
+                                                <button class="add-to-cart-btn" style="font-size: 12px;">
+                                                    Quick View
+                                                </button>
+                                            </div>
                                         </div>
                                         <div class="ms-pro-content">
                                             <a href="">
                                                 <!-- <h6 class="ms-pro-stitle">Dried Fruits</h6> -->
                                             </a>
-                                            <h5 class="ms-pro-title"><a href="">Armani Luxury High Back Chair
-                                                    [Green]</a></h5>
+                                            <h5 class="ms-pro-title"><a style="text-transform:uppercase">Armani Luxury
+                                                    High Back <br> Chair
+                                                    [Green] Akavi</a></h5>
                                             <p class="ms-info">Contrary to popular belief, Lorem Ipsum is not simply
                                                 random text. It has roots in a piece of classical Latin literature from
                                                 45 BC, making it over 2000 years old.</p>
@@ -1285,7 +1300,7 @@
                                                     <span class="old-price">Rs 97,990</span>
                                                 </span>
                                             </div>
-                                             <div class="color-swatches ">
+                                            <div class="color-swatches ">
                                                 <ul class="swatch-list">
                                                     <li class="swatch" style="background-color: #000;"
                                                         data-img="assets/1. LUXURY SERIES (50)/3. Armani Luxury High Back Chair [Beige]/1.jpg">
@@ -1308,9 +1323,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/4. Armani Luxury Medium Back Chair [Beige]/1.jpg"
                                                         alt="Product">
@@ -1318,8 +1331,10 @@
                                                         src="assets/1. LUXURY SERIES (50)/4. Armani Luxury Medium Back Chair [Beige]/2.jpg"
                                                         alt="Product">
                                                 </a>
-                                                <span class="flags">
-                                                    <span class="new">New</span>
+                                                 <span class="flags" style="background-color: black !important;">
+                                                    <span class="sale"
+                                                        style="color: white; background-color: black !important;">Save
+                                                        25% </span>
                                                 </span>
                                                 <div class="ms-pro-actions">
                                                     <a class="ms-btn-group wishlist"><img
@@ -1337,13 +1352,19 @@
                                                             alt=""></a>
                                                 </div>
                                             </div>
+                                            <div class="product-cart-btn" style="padding: 10px 15px 0;">
+                                                <button class="add-to-cart-btn" style="font-size: 12px;">
+                                                    Quick View
+                                                </button>
+                                            </div>
                                         </div>
                                         <div class="ms-pro-content">
                                             <a href="">
                                                 <!-- <h6 class="ms-pro-stitle">Dried Fruits</h6> -->
                                             </a>
-                                            <h5 class="ms-pro-title"><a href="">Armani Luxury High Back Chair
-                                                    [Green]</a></h5>
+                                            <h5 class="ms-pro-title"><a style="text-transform:uppercase">Armani Luxury
+                                                    High Back <br> Chair
+                                                    [Green] Akavi </a></h5>
                                             <p class="ms-info">Contrary to popular belief, Lorem Ipsum is not simply
                                                 random text. It has roots in a piece of classical Latin literature from
                                                 45 BC, making it over 2000 years old.</p>
@@ -1352,15 +1373,15 @@
                                                     <i class="msicon msi-star fill"></i>
                                                     <i class="msicon msi-star fill"></i>
                                                     <i class="msicon msi-star fill"></i>
-                                                    <i class="msicon msi-star"></i>
-                                                    <i class="msicon msi-star"></i>
+                                                    <i class="msicon msi-star fill"></i>
+                                                    <i class="msicon msi-star fill"></i>
                                                 </span>
                                                 <span class="ms-price">
                                                     <span class="new-price">Rs 71,990</span>
                                                     <span class="old-price">Rs 97,990</span>
                                                 </span>
                                             </div>
-                                             <div class="color-swatches ">
+                                            <div class="color-swatches ">
                                                 <ul class="swatch-list">
                                                     <li class="swatch" style="background-color: #000;"
                                                         data-img="assets/1. LUXURY SERIES (50)/3. Armani Luxury High Back Chair [Beige]/1.jpg">
@@ -1383,9 +1404,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/5. Bentley Pure Leather Luxury High Back Chair [Tan]/1.jpg"
                                                         alt="Product">
@@ -1394,7 +1413,7 @@
                                                         alt="Product">
                                                 </a>
                                                 <span class="flags">
-                                                    <span class="new">New</span>
+                                                    <span class="new">Save 25%</span>
                                                 </span>
                                                 <div class="ms-pro-actions">
                                                     <a class="ms-btn-group wishlist"><img
@@ -1412,6 +1431,11 @@
                                                             alt=""></a>
                                                 </div>
                                             </div>
+                                            <!-- <div class="product-cart-btn" style="padding: 10px 15px 0;">
+                                                <button class="add-to-cart-btn" style="font-size: 12px;">
+                                                    Enquiry
+                                                </button>
+                                            </div> -->
                                         </div>
                                         <div class="ms-pro-content">
                                             <a href="">
@@ -1435,7 +1459,7 @@
                                                     <span class="old-price">Rs 97,990</span>
                                                 </span>
                                             </div>
-                                            
+
                                         </div>
                                     </div>
                                 </div>
@@ -1445,9 +1469,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/6. Bentley Pure Leather Luxury Medium Back Chair [Tan]/1.jpg"
                                                         alt="Product">
@@ -1479,7 +1501,8 @@
                                             <a href="">
                                                 <!-- <h6 class="ms-pro-stitle">Dried Fruits</h6> -->
                                             </a>
-                                            <h5 class="ms-pro-title"><a href="">Armani Luxury High Back Chair
+                                            <h5 class="ms-pro-title"><a style="text-transform:uppercase">Armani Luxury
+                                                    High Back Chair
                                                     [Green]</a></h5>
                                             <p class="ms-info">Contrary to popular belief, Lorem Ipsum is not simply
                                                 random text. It has roots in a piece of classical Latin literature from
@@ -1506,9 +1529,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/7. Bentley Pure Leather Luxury High Back Chair [Blue]/1.jpg"
                                                         alt="Product">
@@ -1537,7 +1558,8 @@
                                             <a href="">
                                                 <!-- <h6 class="ms-pro-stitle">Dried Fruits</h6> -->
                                             </a>
-                                            <h5 class="ms-pro-title"><a href="">Armani Luxury High Back Chair
+                                            <h5 class="ms-pro-title"><a style="text-transform:uppercase">Armani Luxury
+                                                    High Back Chair
                                                     [Green]</a></h5>
                                             <p class="ms-info">Contrary to popular belief, Lorem Ipsum is not simply
                                                 random text. It has roots in a piece of classical Latin literature from
@@ -1564,9 +1586,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/8. Bentley Pure Leather Luxury Medium Back Chair [Blue]/1.jpg"
                                                         alt="Product">
@@ -1622,9 +1642,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/9. Heritage Luxury High Back Chair [White]/1.jpg"
                                                         alt="Product">
@@ -1633,7 +1651,7 @@
                                                         alt="Product">
                                                 </a>
                                                 <span class="flags">
-                                                    <span class="sale">Sale</span>
+                                                    <span class="sale">Sale -37%</span>
                                                 </span>
                                                 <div class="ms-pro-actions">
                                                     <a class="ms-btn-group wishlist"><img
@@ -1684,9 +1702,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/11. Heritage Luxury High Back Chair [Blue]/1.jpg"
                                                         alt="Product">
@@ -1745,9 +1761,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/12. Heritage Luxury Medium Back Chair [Blue]/1.jpg"
                                                         alt="Product">
@@ -1806,9 +1820,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/13. Cruise Luxury High Back Chair [Orange]/1.jpg"
                                                         alt="Product">
@@ -1864,9 +1876,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/14. Cruise Luxury High Back Chair [Cream]/1.webp"
                                                         alt="Product">
@@ -1925,9 +1935,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/15. Cruise Luxury High Back Chair [Black]/1.webp"
                                                         alt="Product">
@@ -1986,9 +1994,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/16. Cruise Luxury High Back Chair [Beige]/1.png"
                                                         alt="Product">
@@ -2047,9 +2053,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/18. Calvin Luxury Medium Back Chair [Beige]/1.png"
                                                         alt="Product">
@@ -2105,9 +2109,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/19. Calvin Luxury High Back Chair [Grey]/Untitled design.png"
                                                         alt="Product">
@@ -2163,9 +2165,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/20. Calvin Luxury Medium Back Chair [Grey]/Untitled design (2).png"
                                                         alt="Product">
@@ -2221,9 +2221,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/22. Parker Luxury Medium Back Chair [Royal Blue]/1.jpg"
                                                         alt="Product">
@@ -2279,9 +2277,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/23. Parker Luxury High Back Chair [Elegant Black]/1.jpg"
                                                         alt="Product">
@@ -2337,9 +2333,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/24. Parker Luxury Medium Back Chair [Elegant Black]/1.jpg"
                                                         alt="Product">
@@ -2395,9 +2389,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/25. Ashley Luxury High Back Chair [Black]/1.jpg"
                                                         alt="Product">
@@ -2453,9 +2445,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/26. Ashley Luxury Medium Back Chair [Black]/1.jpg"
                                                         alt="Product">
@@ -2511,9 +2501,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/27. Ashley Luxury High Back Chair [Beige]/1.jpg"
                                                         alt="Product">
@@ -2569,9 +2557,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/28. Ashley Luxury Medium Back Chair [Beige]/1.jpg"
                                                         alt="Product">
@@ -2627,9 +2613,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/29. Evoke Luxury High Back Chair [Beige]/1.jpg"
                                                         alt="Product">
@@ -2685,9 +2669,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/30. Evoke Luxury Medium Back Chair [Beige]/1.jpg"
                                                         alt="Product">
@@ -2743,9 +2725,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/31. Evoke Luxury High Back Chair [Black]/1.jpg"
                                                         alt="Product">
@@ -2801,9 +2781,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/32. Evoke Luxury Medium Back Chair [Black]/1.jpg"
                                                         alt="Product">
@@ -2859,9 +2837,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/33. Milano Luxury High Back Chair [Beige]/1.jpg"
                                                         alt="Product">
@@ -2917,9 +2893,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/34. Milano Luxury Medium Back Chair [Beige]/1.jpg"
                                                         alt="Product">
@@ -2975,9 +2949,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/35. Magna Luxury High Back Chair [Beige]/1.jpg"
                                                         alt="Product">
@@ -3033,9 +3005,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/36. Magna Luxury Medium Back Chair [Beige]/1.jpg"
                                                         alt="Product">
@@ -3091,9 +3061,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/37. Crown Luxury High Back Chair [Cream]/1.webp"
                                                         alt="Product">
@@ -3149,9 +3117,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/38. Crown Luxury Medium Back Chair [Cream]/1.webp"
                                                         alt="Product">
@@ -3207,9 +3173,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/39. Felix Luxury High Back Chair [Cream]/Untitled design (4).png"
                                                         alt="Product">
@@ -3265,9 +3229,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/40. Felix Luxury Medium Back Chair [Cream]/Untitled design (6).png"
                                                         alt="Product">
@@ -3323,9 +3285,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/41. Trident Luxury High Back Chair [Tan]/1.png"
                                                         alt="Product">
@@ -3381,9 +3341,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/42. Trident Luxury Medium Back Chair [Tan]/1.jpg"
                                                         alt="Product">
@@ -3439,9 +3397,7 @@
                                         <div class="ms-pro-image-outer">
                                             <div class="ms-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <span class="label veg">
-                                                        <span class="dot"></span>
-                                                    </span>
+
                                                     <img class="main-image"
                                                         src="assets/1. LUXURY SERIES (50)/43. Trident Luxury High Back Chair [Grey]/1.png"
                                                         alt="Product">
