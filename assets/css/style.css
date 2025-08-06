@@ -2566,8 +2566,8 @@ i.msicon.msi-star.fill {
 .ms-product-inner {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  border: 1px solid #eee;
-  border-radius: 3px;
+  border: 1px solid #cdc9c9;
+  border-radius: 10px;
   cursor: pointer;
   overflow: hidden;
 }
