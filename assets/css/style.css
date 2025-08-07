@@ -2630,20 +2630,12 @@ i.msicon.msi-star.fill {
   background-color: #ff9898;
 }
 .ms-product-inner .ms-pro-image .flags {
-  right: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 0;
-  text-transform: uppercase;
-  position: absolute;
+   position: absolute;
   top: 10px;
-  left: 10px;
-  z-index: 2;
+  right: 10px;
+  z-index: 10;
+  border-radius: 4px;
+  padding: 4px 8px;
 }
 .ms-product-inner .ms-pro-image .flags span {
   padding: 5px 10px;
